@@ -7,11 +7,11 @@ $('#btn').on('click', function () {
       // console.log($('body').hasClass('open'))
 
       if ($('body').hasClass('open')) {
-            $('#btn i')
+            $btnIcon
                   .removeClass('ri-menu-line')
                   .addClass('ri-close-line')
       } else {
-            $('#btn i')
+            $btnIcon
                   .removeClass('ri-close-line')
                   .addClass('ri-menu-line')
       }
